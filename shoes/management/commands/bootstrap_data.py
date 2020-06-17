@@ -30,7 +30,7 @@ class Command(BaseCommand):
             new_color_record = ShoeColor(color_name=color[0])
             new_color_record.save()
             self.stdout.write(self.style.SUCCESS(
-                f'Successfully added {color} to database!'
+                f'Successfully added {color[1]} to database!'
             ))
 
         # add shoe styles to database
