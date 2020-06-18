@@ -25,7 +25,7 @@ class ShoeColor(models.Model):
         ('YLW', 'Yellow'),
         ('GRN', 'Green'),
         ('BLU', 'Blue'),
-        ('IVY', 'Ivory'),
+        ('IND', 'Indigo'),
         ('VLT', 'Violet'),
         ('BLK', 'Black'),
         ('WHT', 'White')
